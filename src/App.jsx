@@ -11,10 +11,7 @@ function App() {
       {!weatherData ? (
         <SearchComponent onSearch={(data) => setWeatherData(data)} />
       ) : (
-        <WeatherView
-          weatherData={weatherData}
-          onBack={() => setWeatherData(null)}
-        />
+        <WeatherView weatherData={weatherData} onBack={() => setWeatherData(null)} />
       )}
     </div>
   );
