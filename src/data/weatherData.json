@@ -1,0 +1,21 @@
+{
+  "date": "2024-12-16",
+  "dayAverage": {
+    "weatherCode": 0,
+    "rainfall": {
+      "mm": 0,
+      "chance": 0,
+      "humidity": 0
+    },
+    "temperature": {
+      "low": 0,
+      "high": 0,
+      "feelsLike": 0
+    },
+    "wind": {
+      "averageSpeed": 0,
+      "gustSpeed": 0,
+      "direction": 0
+    }
+  }
+}
